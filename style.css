@@ -1,0 +1,34 @@
+.header{
+    background-color: #366a63;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#logo{
+    width: 12%; 
+    height: 100%;
+    padding-left: 20px;
+}
+#navbar li{
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+    padding-top: 15px;
+    float: right;
+}
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family:   'Times New Roman', Times, serif
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #366a63;
+    font-weight: bold;
+    
+}
+.footer_separator{
+    border: 5px solid #366a63;
+}
