@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+body{
+    background-color: rgba(54, 106, 106, 0.1);
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #366a63;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 8%; 
+    height: 70%;
+    padding-left: 3%;
+    padding-top: 15px;
+}
+#navbar li{
+    list-style: none;
+    display: inline;
+    padding-right: 25px;
+    padding-top: 15px;
+    float: right;
+}
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #366a63;
+    height: 50px;
+    padding-top: 15px;
+}
+footer p{
+    display: inline;
+    text-align: center;
+    margin: 0;
+}
+.first_heading{
+    text-align: center;
+    direction: rtl;
+    font-size: 50px;
+    font-family: "Readex Pro";
+}
+.second_heading{
+    text-align: center;
+    direction: rtl;
+    font-size: 40px;
+    font-family: "Readex Pro";
+    padding: 0;
+    margin: 0;
+}
+.second_heading span{
+    color: #366a63;
+}
+#service{
+    width: 50%;
+}
+.service_container{
+    display: flex;
+    justify-content: space-between;
+}
+.service_container_card{
+    background-color: #366a63;
+    width: 80%;
+    border-radius: 20px;
+    height: 550px;
+    display: inline;
+    padding: 2%;
+    margin-top: 5%;
+    margin-right: 1%;
+}
+.service_container_card p{
+    direction: rtl;
+    font-family:"Readex Pro";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.service_container_card p u{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-underline-offset: 5px;
+}
+.service_container_card ul{
+    direction: rtl;
+    display: block;
+}
+.service_container_card ul li{
+    direction: rtl;
+    font-family:"Readex Pro";
+    display: blrelativeock;
+    padding-top: 9%;
+    color: white;
+    float: right;
+    font-size: 25px;
+}
+.download_stores{
+    mix-blend-mode: color-burn;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.download_stores img{
+    width: 10%;
+    height: 20%;
+}
+.download_text{
+    text-align: center;
+    direction: rtl;
+    font-size: 50px;
+    font-family: "Readex Pro";
+    margin-top: 0;
+}
+.download_text span{
+    color: #366a63;
+    font-weight: bold;
+}
+.contact_section{
+    background-color: #366a63;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 10px;
+    height: 250px;
+    margin-bottom: 50px;
+    display: grid;
+    place-items: center;
+}
+.bridge_to_contact{
+    text-align: center;
+    direction: rtl;
+    font-size: 60px;
+    font-family: "Readex Pro";
+    margin-top: 0;
+    padding-top: 1%;
+    color: white;
+    height: 30px;
+}
+.contact_section button{
+    background-color: white;
+    color: #366a63;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    font-family: "Readex Pro";
+    margin-bottom: 20px;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+}
+.contact_section button:hover {opacity: 0.6}
