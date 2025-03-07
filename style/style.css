@@ -36,9 +36,9 @@ body{
 footer{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: #366a63;
     font-weight: bold;
-    background-color: #366a63;
+    background-color: rgba(54, 106, 106, 0.2);
     height: 50px;
     padding-top: 15px;
 }
@@ -109,7 +109,7 @@ footer p{
 }
 .download_stores{
     mix-blend-mode: color-burn;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     display: flex;
     justify-content: center;
 }
@@ -129,7 +129,6 @@ footer p{
     font-weight: bold;
 }
 .contact_section{
-    background-color: #366a63;
     margin-right: 200px;
     margin-left: 200px;
     border-radius: 10px;
@@ -145,12 +144,12 @@ footer p{
     font-family: "Readex Pro";
     margin-top: 0;
     padding-top: 1%;
-    color: white;
+    color: #366a63;
     height: 30px;
 }
 .contact_section button{
-    background-color: white;
-    color: #366a63;
+    background-color: #366a63;
+    color: white;
     border: none;
     border-radius: 10px;
     text-decoration: none;
@@ -165,3 +164,112 @@ footer p{
     transition: 0.3s;
 }
 .contact_section button:hover {opacity: 0.6}
+.plans_heading{
+    text-align: center;
+    direction: rtl;
+    font-size: 60px;
+    font-family: "Readex Pro";
+    color: #366a63;
+}
+.plans_text{
+    text-align: center;
+    direction: rtl;
+    font-size: 20px;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    margin-bottom: 4%;
+}
+.plans_features{
+    background-color: rgba(54, 106, 106, 0.2);
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 10px;
+    height: 250px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between
+}
+.first_column{
+    padding-left: 70px;
+    padding-top: 30px ;
+    text-align: center;
+    direction: rtl;
+    font-size: 25px;
+    font-family: "Readex Pro";
+    font-weight: bold;
+}
+.second_column{
+    padding-right: 70px;
+    padding-top: 30px ;
+    text-align: center;
+    direction: rtl;
+    font-size: 25px;
+    font-family: "Readex Pro";
+    font-weight: bold;
+}
+.plans_features p{
+    padding-bottom: 30px;
+}
+.plans_features img{
+    margin-right:10px;
+}
+.plans_custom_text{
+    text-align: center;
+    direction: rtl;
+    font-size: 70px;
+    font-family: "Readex Pro";
+    font-weight: 400;
+    margin-bottom: 4%;
+    color: #366a63;
+}
+.packs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6%;
+    align-items: flex-start;
+    gap: 20px; 
+}
+.first_pack{
+    margin-left: 6%;
+    width: 300px;
+    border: 5px solid #366a63;
+}
+.second_pack{
+    width: 300px;
+    border: 5px solid #366a63;
+}
+.third_pack{
+    width: 300px;
+    border: 5px solid #366a63;
+}
+.fourth_pack{
+    width: 300px;
+    margin-right: 6%;
+    border: 5px solid #366a63;
+}
+.packs tr td{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #366a63;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.packs tr th{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #366a63;
+    font-weight: bold;
+}
+.about_heading{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #366a63;
+}
+.team{
+    width: 50%;
+}
