@@ -5,6 +5,9 @@ body{
     padding: 0;
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 .header{
     background-color: #366a63;
     display: flex;
@@ -140,10 +143,11 @@ footer p{
 .bridge_to_contact{
     text-align: center;
     direction: rtl;
-    font-size: 60px;
+    font-size: 120px;
     font-family: "Readex Pro";
     margin-top: 0;
     padding-top: 1%;
+    padding-bottom: 3%;
     color: #366a63;
     height: 30px;
 }
@@ -155,7 +159,7 @@ footer p{
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
-    height: 60px;
+    height: 70px;
     width: 200px;
     font-family: "Readex Pro";
     margin-bottom: 20px;
