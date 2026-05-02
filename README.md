@@ -15,11 +15,11 @@ Instead of endlessly searching for local brands on Instagram, Loco helps users f
 
 | Hero Preview | Mobile View |
 |--------------|--------------|
-| ![Hero Preview](preview.png) | ![Mobile View](mobile.png) |
+| ![Hero Preview](./preview.png) | ![Mobile View](./mobile.png) |
 
 | Plans Section | Team Section |
 |--------------|---------------|
-| ![Pricing Plans](plans.png) | ![Team Section](team.png) |
+| ![Pricing Plans](./plans.png) | ![Team Section](./team.png) |
 
 ---
 
@@ -67,19 +67,16 @@ git clone https://github.com/Mahmoud-Hanyy/Loco_Landing-Page.git
 cd Loco_Landing-Page
 open index.html
 
-Team
+## Team
+
 Built by students from SIM (Software Industry and Multimedia):
 
-Mahmoud Hany - Full-Stack Developer / Team Leader
-
-Adham Hossam - Back-end Developer
-
-Fady Farid - Front-end Developer
-
-Ahmed El Hoshy - Full-Stack Developer
-
-Juliana Wael - Mobile Developer
-
-Miray Gerges - Mobile Developer
-
-Marina Saad - Back-end Developer
+| Name | Role |
+|------|------|
+| Mahmoud Hany | Full-Stack Developer / Team Leader |
+| Adham Hossam | Back-end Developer |
+| Fady Farid | Front-end Developer |
+| Ahmed El Hoshy | Full-Stack Developer |
+| Juliana Wael | Mobile Developer |
+| Miray Gerges | Mobile Developer |
+| Marina Saad | Back-end Developer |
