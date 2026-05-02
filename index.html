@@ -1,189 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Loco</title>
-    <link rel="icon" type="shortcut icon" href="./img/favicon.ico">
+    <title>لوكو — متجرك المحلي</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <header class="header">
-        <img src="./img/Loco.png" alt="Logo" id="logo">
-        <nav>
-            <ul id="navbar">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#plans">Plans</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1 class="first_heading">إمتلك متجرك الالكتروني في دقائق 😉</h1>
-    <h2 class="second_heading">مع <span>لوكو</span></h2>
-    <div class="service_container">
-        <img src="./img/service.png" alt="Services" id="service" loading="lazy">
-        <div class="service_container_card">
-            <p>
-                <u>تحكم في مشروعك اينما كنت ✌️</u>
+
+    <!-- ── NAVIGATION ── -->
+    <nav class="nav" id="nav">
+        <a class="nav-logo" href="#">لوكو</a>
+        <ul class="nav-links" dir="ltr">
+            <li><a href="#">Home</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+
+        <div class="hero-text">
+            <div class="hero-badge">🇪🇬 &nbsp;منصة المحلات المصرية</div>
+            <h1>
+                إمتلك متجرك
+                <br>الالكتروني مع
+                <br><em>لوكو</em>
+            </h1>
+            <p class="hero-sub">
+                منصة واحدة تجمع كل المحلات والبراندات المحلية المصرية — بدل ما تدور عليهم في انستجرام، لاقيهم كلهم في
+                مكان واحد.
             </p>
-            <ul>
-                <li>تجربة مميزة لأدارة مشروعك التجاري</li>
-                <li>ضمان وجودك وسط اعلي نتائج البحث</li>
-                <li>باقات متنوعة وباقة مجانية للتجربة</li>
-                <li>دعم فني متواجد لمساعدتك</li>
-                <li>ميزات حصرية بالذكاء الاصطناعي </li>
-            </ul>
+            <div class="hero-cta">
+                <a href="#plans" class="btn-primary">ابدأ مجاناً ←</a>
+                <a href="#about" class="btn-secondary">اعرف أكتر</a>
+            </div>
         </div>
-    </div>
-    <p class="download_text">
-        <span>لوكو</span>
-        دلوقتي متاح علي جميع المتاجر الالكترونية
-    </p>
-    <div class="download_stores">
-        <img src="./img/play.png" alt="play_store">
-        <img src="./img/appstore.png" alt="app_store">
-    </div>
-    
-    
-    <section id="plans">
-        <h1 class="plans_heading">احترافي.سريع.عملي.</h1>
-    <h3 class="plans_text">يمكنك بسهولة أدارة المتجر الخاص بك علي الانترنت من أي مكان</h3>
 
-    <div class="plans_features">
-        <div class="first_column">
-        <P class="easy">
-            سهل الاستخدام
-            <img width="30" height="30" 
-            src="https://img.icons8.com/ios-filled/50/easy.png" 
-            alt="easy"/>
-        </P>
-        <P class="customised">
-            مخصص لتقديم هوية متجرك
-            <img width="30" height="30"
-            src="https://img.icons8.com/ios-filled/50/video-id-verification.png" 
-            alt="video-id-verification"/>
-        </P>
+        <div class="hero-visual">
+            <div class="hero-float-1"></div>
+            <div class="hero-float-2"></div>
+            <div class="phone-mockup">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                    <div class="app-header-mock">
+                        <div class="app-logo-mock">لو<span>كو</span></div>
+                        <span style="font-size:20px;">🛍️</span>
+                    </div>
+                    <div class="search-bar-mock">
+                        <span>🔍</span> ابحث عن براند...
+                    </div>
+                    <div class="cat-scroll">
+                        <div class="cat-pill active">الكل</div>
+                        <div class="cat-pill">موضة</div>
+                        <div class="cat-pill">أكل</div>
+                        <div class="cat-pill">ديكور</div>
+                    </div>
+                    <div class="brand-card-mock">
+                        <div class="brand-icon" style="background:rgba(201,147,58,0.2)">👗</div>
+                        <div class="brand-info">
+                            <div class="brand-name-mock">Cairo Threads</div>
+                            <div class="brand-tag-mock">موضة • القاهرة</div>
+                        </div>
+                        <div class="brand-rating">★ 4.8</div>
+                    </div>
+                    <div class="brand-card-mock">
+                        <div class="brand-icon" style="background:rgba(42,107,98,0.3)">🍕</div>
+                        <div class="brand-info">
+                            <div class="brand-name-mock">Balady Bites</div>
+                            <div class="brand-tag-mock">أكل • الجيزة</div>
+                        </div>
+                        <div class="brand-rating">★ 4.9</div>
+                    </div>
+                    <div class="brand-card-mock">
+                        <div class="brand-icon" style="background:rgba(180,80,80,0.2)">🏺</div>
+                        <div class="brand-info">
+                            <div class="brand-name-mock">Nile Craft Co.</div>
+                            <div class="brand-tag-mock">يدوي • الإسكندرية</div>
+                        </div>
+                        <div class="brand-rating">★ 4.7</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="second_column">
-        <P class="prices">
-            أسعار مناسبة
-            <img width="30" height="30" 
-            src="https://img.icons8.com/ios-filled/50/money-with-wings.png" 
-            alt="money-with-wings"/>
-        </P>
-        <P class="lang">
-            يدعم اللغة العربية
-            <img width="30" height="30" 
-            src="https://img.icons8.com/ios-filled/50/language.png" 
-            alt="language"/>
-        </P>
-    </div>
-    </div>
 
-    <h1 class="plans_custom_text">باقات مصممة لك خصيصاً</h1>
-
-    <div class="packs">
-            <table class="first_pack">
-                <tr><th>Bronze</th></tr>
-                <tr><td>Free</td></tr>
-                <tr><td>20% Commission</td></tr>
-                <tr><td>50 Orders</td></tr>
-            </table>
-            <table class="second_pack">
-                <tr><th>Silver</th></tr>
-                <tr><td>250 L.E</td></tr>
-                <tr><td>10% Commission</td></tr>
-                <tr><td>100 Orders</td></tr>
-                <tr><td>Free Shipping</td></tr>
-            </table>
-            <table class="third_pack">
-                <tr><th>Gold</th></tr>
-                <tr><td>750 L.E</td></tr>
-                <tr><td>5% Commission</td></tr>
-                <tr><td>200 Orders</td></tr>
-                <tr><td>Free Shipping</td></tr>
-                <tr><td>Free Vouchers</td></tr>
-                <tr><td> 1 Ad on the app</td></tr>
-            </table>
-            <table class="fourth_pack">
-                <tr><th>Platinum</th></tr>
-                <tr><td>1500 L.E</td></tr>
-                <tr><td>0% Commission</td></tr>
-                <tr><td>unlimited Orders</td></tr>
-                <tr><td>Free Shipping</td></tr>
-                <tr><td>Free Vouchers</td></tr>
-                <tr><td>Private Technical Support</td></tr>
-                <tr><td>5 Ad on the app</td></tr>
-            </table>
-    </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-num">+500</div>
+                <div class="stat-label">براند محلي</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">4</div>
+                <div class="stat-label">باقات مرنة</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">24/7</div>
+                <div class="stat-label">دعم فني</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">0 L.E</div>
+                <div class="stat-label">للبدء مجاناً</div>
+            </div>
+        </div>
     </section>
 
-
-    <section id="about">
-        <div class="about">
-            <h1 class="about_heading">Meet our team</h1>
-            <img src="./img/img1.jpg" class="team" loading="lazy">
-            <p>We are a group of passionate<span> SIM</span> (Software Industry and Multimedia) 
-                students who collabrated together for the developing of <span>Loco</span>
-                and dreaming of the day of the launch.Eagering to ease on people the process of 
-                finding <span>Egyptian Local Brands </span>instead of searching on instagram.In addition to 
-                adding some AI features.
-            </p>
+    <!-- ── FEATURES ── -->
+    <section class="features">
+        <div class="features-header reveal">
+            <div class="section-label">مميزات المنصة</div>
+            <h2 class="section-title">كل اللي محتاجه <span>في مكان واحد</span></h2>
+            <p class="section-sub">لوكو مش بس متجر — هو منظومة متكاملة لإدارة مشروعك التجاري بكل سهولة واحترافية</p>
         </div>
-        
-        <div class="rules">
-            <h1 class="about_heading">Our Roles</h1>
-            <div class="person">
-                <img src="./img/bonga.jpg" loading="lazy">
-                <p class="bonga">
-                    Mahmoud Hany<br>
-                    Full-Stack Developer<br><br>
-                    <span>Team Leader</span>
-                </p>
-                <img src="./img/dom.jpg" loading="lazy">
-                <p>
-                    Adham Hossam<br>
-                    Back-end Developer<br><br>
-                </p>
-                <img src="./img/fady.png" loading="lazy">
-                <p>
-                    Fady Farid<br>
-                    Front-end Developer<br><br>
-                </p>
-                <img src="./img/hosh.jpg" loading="lazy">
-                <p>
-                    Ahmed El Hoshy<br>
-                    Full-Stack Developer<br><br>
-                </p>
-                <img src="./img/jojo.jpg" loading="lazy">
-                <p>
-                    Juliana Wael<br>
-                    Mobile Developer<br><br>
-                </p>
-                <img src="./img/mira.jpg" loading="lazy">
-                <p>
-                    Miray Gerges<br>
-                    Mobile Developer<br><br>
-                </p>
-                <img src="./img/marina.jpg" loading="lazy">
-                <p>
-                    Marina Saad<br>
-                    Back-end Developer<br><br>
-                </p>
+        <div class="features-grid">
+            <div class="feature-card reveal reveal-delay-1">
+                <div class="feature-icon">🤖</div>
+                <h3>ذكاء اصطناعي</h3>
+                <p>ميزات حصرية بالـ AI تساعدك تفهم عملاءك وتحسن مبيعاتك بشكل أوتوماتيك</p>
             </div>
-            <div class="contact_section">
-                <p class="bridge_to_contact">
-                    لسه عندك سؤال ؟
-                </p>
-                <a href="https://www.facebook.com/profile.php?id=100025439300084" target="_blank">
-                <button>
-                    تواصل معانا
-                </button>
+            <div class="feature-card reveal reveal-delay-2">
+                <div class="feature-icon">📍</div>
+                <h3>ظهور في البحث</h3>
+                <p>ضمان وجودك وسط أعلى نتائج البحث — عملاءك يلاقوك بسهولة</p>
+            </div>
+            <div class="feature-card reveal reveal-delay-3">
+                <div class="feature-icon">📱</div>
+                <h3>إدارة من موبايلك</h3>
+                <p>تحكم في متجرك من أي مكان عن طريق التطبيق — سهل وبسيط</p>
+            </div>
+            <div class="feature-card reveal reveal-delay-1">
+                <div class="feature-icon">🚚</div>
+                <h3>شحن مجاني</h3>
+                <p>في الباقات المتقدمة، توصيل مجاني لعملاءك مع تتبع الطلبات في الوقت الحقيقي</p>
+            </div>
+            <div class="feature-card reveal reveal-delay-2">
+                <div class="feature-icon">🎟️</div>
+                <h3>كوبونات وعروض</h3>
+                <p>أنشئ كوبونات خصم وإعلانات داخل التطبيق لجذب عملاء جدد</p>
+            </div>
+            <div class="feature-card reveal reveal-delay-3">
+                <div class="feature-icon">🌐</div>
+                <h3>دعم عربي كامل</h3>
+                <p>المنصة مصممة للعربية من الأساس — واجهة RTL وتجربة مستخدم سلسة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PLANS ── -->
+    <section class="plans" id="plans">
+        <div class="plans-header reveal">
+            <div class="section-label" style="justify-content:center;color:var(--gold-l);">الباقات</div>
+            <h2 class="section-title">باقات <span style="color:var(--gold-l);">مصممة لك</span> خصيصاً</h2>
+            <p class="section-sub">ابدأ مجاناً وترقى مع نمو مشروعك — كل باقة مصممة لمرحلة مختلفة</p>
+        </div>
+        <div class="plans-grid">
+            <div class="plan-card reveal reveal-delay-1">
+                <div class="plan-tier">Bronze</div>
+                <div class="plan-price">Free</div>
+                <div class="plan-divider"></div>
+                <ul class="plan-features-list">
+                    <li>عمولة 20%</li>
+                    <li>50 طلب</li>
+                    <li>دعم أساسي</li>
+                </ul>
+                <button class="plan-btn">ابدأ مجاناً</button>
+            </div>
+            <div class="plan-card reveal reveal-delay-2">
+                <div class="plan-tier">Silver</div>
+                <div class="plan-price">250 <small>L.E</small></div>
+                <div class="plan-divider"></div>
+                <ul class="plan-features-list">
+                    <li>عمولة 10%</li>
+                    <li>100 طلب</li>
+                    <li>شحن مجاني</li>
+                </ul>
+                <button class="plan-btn">اشترك</button>
+            </div>
+            <div class="plan-card featured reveal reveal-delay-3">
+                <div class="plan-tier">Gold</div>
+                <div class="plan-price">750 <small>L.E</small></div>
+                <div class="plan-divider"></div>
+                <ul class="plan-features-list">
+                    <li>عمولة 5%</li>
+                    <li>200 طلب</li>
+                    <li>شحن مجاني</li>
+                    <li>كوبونات مجانية</li>
+                    <li>إعلان واحد</li>
+                </ul>
+                <button class="plan-btn">اشترك</button>
+            </div>
+            <div class="plan-card reveal reveal-delay-4">
+                <div class="plan-tier">Platinum</div>
+                <div class="plan-price">1500 <small>L.E</small></div>
+                <div class="plan-divider"></div>
+                <ul class="plan-features-list">
+                    <li>0% عمولة</li>
+                    <li>طلبات غير محدودة</li>
+                    <li>شحن مجاني</li>
+                    <li>كوبونات مجانية</li>
+                    <li>دعم فني خاص</li>
+                    <li>5 إعلانات</li>
+                </ul>
+                <button class="plan-btn">اشترك</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── DOWNLOAD ── -->
+    <section class="download">
+        <div class="download-inner reveal">
+            <h2>حمّل <span>لوكو</span> دلوقتي</h2>
+            <p>متاح على جميع المتاجر الالكترونية — مجاني للتحميل</p>
+            <div class="store-btns">
+                <a href="#" class="store-btn">
+                    <span class="store-btn-icon">▶</span>
+                    <div class="store-btn-text">
+                        <small>احصل عليه من</small>
+                        <strong>Google Play</strong>
+                    </div>
+                </a>
+                <a href="#" class="store-btn">
+                    <span class="store-btn-icon">⬡</span>
+                    <div class="store-btn-text">
+                        <small>حمّله من</small>
+                        <strong>App Store</strong>
+                    </div>
                 </a>
             </div>
         </div>
     </section>
 
-<footer>&copy;<p>2025 Developed by Mahmoud Hany</p></footer>
+    <!-- ── TEAM ── -->
+    <section class="team-section" id="about">
+        <div class="team-header reveal">
+            <div class="section-label" style="justify-content:center;">الفريق</div>
+            <h2 class="section-title">الناس اللي <span>بنوا لوكو</span></h2>
+            <p class="team-about">
+                فريق من طلاب <strong>SIM (Software Industry and Multimedia)</strong> اتشاوروا مع بعض وبنوا لوكو — حلم إن
+                المحلات المصرية المحلية تلاقي مكانها على الإنترنت بسهولة، مع إضافة ميزات ذكاء اصطناعي تفرق.
+            </p>
+        </div>
+        <img src="img/Team.jpg" class="team-photo reveal" alt="Loco Team">
+
+        <div class="team-grid">
+            <div class="team-card reveal reveal-delay-1">
+                <img class="team-avatar-img" src="img/Mahmoud.jpg" alt="Mahmoud Hany">
+                <div class="team-name">Mahmoud Hany</div>
+                <div class="team-role">Full-Stack Developer</div>
+                <div class="team-leader-badge">Team Leader</div>
+            </div>
+            <div class="team-card reveal reveal-delay-2">
+                <img class="team-avatar-img" src="img/Adham.jpg" alt="Adham Hossam">
+                <div class="team-name">Adham Hossam</div>
+                <div class="team-role">Back-end Developer</div>
+            </div>
+            <div class="team-card reveal reveal-delay-3">
+                <img class="team-avatar-img" src="img/Fady.png" alt="Fady Farid">
+                <div class="team-name">Fady Farid</div>
+                <div class="team-role">Front-end Developer</div>
+            </div>
+            <div class="team-card reveal reveal-delay-4">
+                <img class="team-avatar-img" src="img/Ahmed.jpg" alt="Ahmed El Hoshy">
+                <div class="team-name">Ahmed El Hoshy</div>
+                <div class="team-role">Full-Stack Developer</div>
+            </div>
+            <div class="team-card reveal reveal-delay-1">
+                <img class="team-avatar-img" src="img/Juliana.jpg" alt="Juliana Wael">
+                <div class="team-name">Juliana Wael</div>
+                <div class="team-role">Mobile Developer</div>
+            </div>
+            <div class="team-card reveal reveal-delay-2">
+                <img class="team-avatar-img" src="img/Miray.jpg" alt="Miray Gerges">
+                <div class="team-name">Miray Gerges</div>
+                <div class="team-role">Mobile Developer</div>
+            </div>
+            <div class="team-card reveal reveal-delay-3">
+                <img class="team-avatar-img" src="img/Marina.jpg" alt="Marina Saad">
+                <div class="team-name">Marina Saad</div>
+                <div class="team-role">Back-end Developer</div>
+            </div>
+        </div>
+
+        <!-- Contact strip -->
+        <div class="contact-strip reveal">
+            <div>
+                <h3>لسه عندك <span>سؤال؟</span></h3>
+                <p>تواصل معانا وهنرد عليك في أقرب وقت</p>
+            </div>
+            <a href="https://www.facebook.com/profile.php?id=100025439300084" target="_blank" class="btn-primary"
+                style="font-size:17px;padding:18px 40px;">
+                تواصل معانا →
+            </a>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        &copy; 2025 <strong>Loco</strong> — Developed by Mahmoud Hany &amp; the SIM Team
+    </footer>
+
+    <script src="script/main.js"></script>
 </body>
+
 </html>
