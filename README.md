@@ -80,6 +80,5 @@ git clone https://github.com/Mahmoud-Hanyy/Loco_Landing-Page.git
 cd Loco_Landing-Page
 open index.html
 
-## Team
-
+## Author
 Built by Mahmoud Hany.
